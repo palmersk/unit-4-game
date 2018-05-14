@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Card Game</title>
+
+		<meta name="viewport" content="width=device-width" initial-scale=1.0">
+		<!-- Link to Reset CSS to Zero out browsers default CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/reset.css">
+		<!-- Link to CSS Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="assets/style.css">
+		<!-- Link to jQuery CDN -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<div class="header">
+					<h1>RANDOM HEARHSTONE</h1>
+				</div>
+				<div class="stats"></div>
+				<div class="game-area">
+					<div id="random-number">
+						<h2>Mystery Number</h2>
+						<h1 id="mystery-number"></h1>
+					</div>
+					<div id="user-score">
+						<h2>Your Number</h2>
+						<h1 id="user-number"></h1>
+					</div>
+					<div class="clear"></div>
+					<div id="user-cards">
+						<h2>Mystery Cards</h2>
+						<img class="card" id="card-1" value="" src="assets/images/hearth_1.png" style="width:200px; height:280px;">
+						<img class="card" id="card-2" value="" src="assets/images/hearth_2.png" style="width:200px; height:280px;">
+						<img class="card" id="card-3" value="" src="assets/images/hearth_3.png" style="width:200px; height:280px;">
+						<img class="card" id="card-4" value="" src="assets/images/hearth_4.png" style="width:200px; height:280px;">
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="footer">
+					<p>&copy; Palmer Knutson 2018</p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="assets/game.js"></script>
+	</body>
+</html>
